@@ -1,0 +1,10 @@
+{
+  "include": [
+    "**/*.nvgt"
+  ],
+  "exclude": [
+    "node_modules",
+    ".vscode",
+    "dist"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "name": "nvgt",
+  "displayName": "NVGT",
+  "description": "NVGT Programming Language (Nonvisual Gaming Toolkit)",
+  "version": "0.0.1",
+  "main": "extension.js",
+  "engines": {
+    "vscode": "^1.99.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "nvgt",
+        "path": "./snippets/nvgt.json"
+      }
+    ],
+    "languages": [
+      {
+        "id": "nvgt",
+        "aliases": [
+          "Nonvisual Gaming Toolkit",
+          "nvgt"
+        ],
+        "extensions": [
+          ".nvgt"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "configurationDefaults": {
+      "[nvgt]": {
+        "editor.insertSpaces": false,
+        "editor.tabSize": 4
+      }
+    },
+    "grammars": [
+      {
+        "language": "nvgt",
+        "scopeName": "source.nvgt",
+        "path": "./syntaxes/nvgt.tmLanguage.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.99.1"
+  }
+}

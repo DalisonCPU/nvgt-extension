@@ -1,0 +1,103 @@
+[
+    {
+      "name": "alert",
+      "params": ["title", "message"],
+      "description": "Displays an alert dialog with a title and message."
+    },
+    {
+      "name": "assert",
+      "params": ["condition", "message (optional)"],
+      "description": "Asserts that a condition is true, optionally providing an error message if false."
+    },
+    {
+      "name": "expand_environment_variables",
+      "params": ["variableName"],
+      "description": "Expands environment variables inside the given string."
+    },
+    {
+      "name": "get_preferred_locales",
+      "params": [],
+      "description": "Returns a list of preferred system locale identifiers."
+    },
+    {
+      "name": "key_down",
+      "params": ["keyCode"],
+      "description": "Checks if a specific key is currently being pressed down."
+    },
+    {
+      "name": "key_pressed",
+      "params": ["keyCode"],
+      "description": "Checks if a specific key was pressed."
+    },
+    {
+      "name": "random",
+      "params": ["minValue", "maxValue"],
+      "description": "Generates a random integer between minValue and maxValue."
+    },
+    {
+      "name": "regexp_replace",
+      "params": ["inputString", "pattern", "replacement"],
+      "description": "Replaces text matching a regex pattern inside the input string."
+    },
+    {
+      "name": "regexp_search",
+      "params": ["inputString", "pattern"],
+      "description": "Searches for a regex pattern inside the input string and returns whether it matches."
+    },
+    {
+      "name": "round",
+      "params": ["number", "decimals"],
+      "description": "Rounds a floating-point number to the specified number of decimal places."
+    },
+    {
+      "name": "screen_reader_speak",
+      "params": ["message", "interrupt"],
+      "description": "Makes the screen reader speak a message. If interrupt is true, stops current speech."
+    },
+    {
+      "name": "show_window",
+      "params": ["title"],
+      "description": "Creates and shows a window with the specified title."
+    },
+    {
+      "name": "string_aes_encrypt",
+      "params": ["inputString", "key"],
+      "description": "Encrypts a string using AES encryption with the provided key."
+    },
+    {
+      "name": "string_base64_decode",
+      "params": ["inputString"],
+      "description": "Decodes a Base64-encoded string."
+    },
+    {
+      "name": "string_base64_encode",
+      "params": ["inputString"],
+      "description": "Encodes a string into Base64 format."
+    },
+    {
+      "name": "string_deflate",
+      "params": ["inputString"],
+      "description": "Compresses a string using the deflate algorithm."
+    },
+    {
+      "name": "string_inflate",
+      "params": ["compressedString"],
+      "description": "Decompresses a deflated string."
+    },
+    {
+      "name": "string_to_hex",
+      "params": ["inputString"],
+      "description": "Converts a string to its hexadecimal representation."
+    },
+    {
+      "name": "url_get",
+      "params": ["url"],
+      "description": "Downloads the content from a given URL as a string."
+    },
+    {
+      "name": "wait",
+      "params": ["milliseconds"],
+      "description": "Pauses the execution for the specified number of milliseconds."
+    }
+  ]
+  
